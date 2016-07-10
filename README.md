@@ -24,7 +24,7 @@ Then install the [PyUSB][] and [docopt][] Python modules:
 
 You will also need the Arduino IDE, correctly configured to use
 the Trinket, and the [TrinketFakeUsbSerial][] and [TinyWireM][]
-libraries are installed.
+libraries installed.
 
 Now go on and [use it](#use)!
 
