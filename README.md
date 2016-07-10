@@ -13,10 +13,10 @@ Communication is done via [TrinketFakeUsbSerial][] which is
 
 ## Install
 
-You should have Python and PIP installed.  
+You should have Python, PIP and libusb installed.  
 On Debian-based OSes, you can do:
 
-    sudo apt-get install python-pip
+    sudo apt-get install python-dev python-pip libusb-1.0-0
 
 Then install the [PyUSB][] and [docopt][] Python modules:
 
