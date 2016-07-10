@@ -23,7 +23,7 @@ Then install the [PyUSB][] and [docopt][] Python modules:
     sudo pip install pyusb docopt
 
 You will also need the Arduino IDE, correctly configured to use
-the Trinket, and the [TrinketFakeUsbSerial][] and [TinyWireM][]
+the Trinket, and with the [TrinketFakeUsbSerial][] and [TinyWireM][]
 libraries installed.
 
 Now go on and [use it](#use)!
@@ -32,7 +32,7 @@ Now go on and [use it](#use)!
 ## Use
 
 You need a 5V Trinket working at 16MHz to use this. Upload the
-`power-trinket.ino` sketch and build the following circuit:
+sketch and build the following circuit:
 
 ![Sketch breadboard view](http://i.imgur.com/D6hVDWz.png)
 
